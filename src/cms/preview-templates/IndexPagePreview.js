@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { IndexPageTemplate } from '../../templates/index-page'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { IndexPageTemplate } from '../../templates/index-page';
 
 const IndexPagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
-  const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
+  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
+  const blurbs = entryBlurbs ? entryBlurbs.toJS() : [];
 
   return (
     <IndexPageTemplate
@@ -31,14 +31,14 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         },
       }}
     />
-  )
-}
+  );
+};
 
 IndexPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-}
+};
 
-export default IndexPagePreview
+export default IndexPagePreview;
