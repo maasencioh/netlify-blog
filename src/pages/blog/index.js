@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Layout from '../../components/Layout';
 import BlogRoll from '../../components/BlogRoll';
 
-export default class BlogIndexPage extends React.Component {
+const MAIN_COLOR = '#303F9F';
+
+export default class BlogIndexPage extends Component {
   render() {
     return (
       <Layout>
@@ -19,8 +21,8 @@ export default class BlogIndexPage extends React.Component {
                 <h1
                   className="has-text-weight-bold is-size-1"
                   style={{
-                    boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-                    backgroundColor: '#f40',
+                    boxShadow: `0.5rem 0 0 ${MAIN_COLOR}, -0.5rem 0 0 ${MAIN_COLOR}`,
+                    backgroundColor: MAIN_COLOR,
                     color: 'white',
                     padding: '1rem',
                   }}

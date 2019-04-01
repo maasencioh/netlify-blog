@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import github from '../img/github-icon.svg';
 import twitter from '../img/twitter-icon.svg';
+import medium from '../img/medium-icon.svg';
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -66,9 +67,6 @@ export default class Navbar extends Component {
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -78,17 +76,27 @@ export default class Navbar extends Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
+                  <img src={github} alt="Github" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://twitter.com/maasencioh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
                   <img src={twitter} alt="Twitter" />
                 </span>
               </a>
               <a
                 className="navbar-item"
-                href="https://github.com/maasencioh"
+                href="https://medium.com/@maasencioh"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={medium} alt="Medium" />
                 </span>
               </a>
             </div>
