@@ -1,19 +1,36 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: A little more about me
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Studies
+I was admitted to study electronical engineering in the National University of Colombia in 2010, but I just found interesting to learn math, statistics and digital circuits, so I changed to study in Computer science in 2014 in the same university finishing my studies in 2017. While I was studying computer science, I discovered MOOCs and that was love a first sight! I could learn about interesting themes, like electronic models of neurons, machine learning, natural language processing, no-SQL databases, and develop in several languages and frameworks.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Languages
+First, as a Colombian citizen, my native language is Spanish, but for my studies, I have to learn English. I also had the opportunity to live in Lausanne, Switzerland, therefore I learn some French. Thanks to this journey I've found the interest to know more languages, so I'm learning Esperanto, Italian and plan to study German.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Tech skills
+Well I've spent some time playing with several technologies
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+#### Languages
+* Javascript
+* Python
+* Elixir
+* SQL
+* Verilog
+* Java
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+#### Frameworks
+* React
+* Angular (1.x)
+* KoaJs
+* Django
+
+#### Tools
+* Jest
+* Jupyther notebook
+* Node.js
+* MongoDB
+* PostgreSQL
+* Docker
+* GraphQL
+* Android studio
