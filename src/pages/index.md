@@ -7,18 +7,14 @@ mainpitch:
     Hello world! I'm a Colombian developer that loves math, embedded systems,
     videogames, and other nerd stuff.
 
-
-
     I'm currently working on the data science team at "Resuelve tu deuda", I'm a
     full-time father and in my free time I write all the interesting things that
     I'm learning.
 
-
-
     If you want to know all the interesting tweets that I found interesting you
-    can follow me on [Twitter](https://twitter.com/maasencioh), or you want me
+    can follow me on Twitter, or you want me
     to show some code you can visit my profile on
-    [GitHub](https://github.com/maasencioh).
+    GitHub.
   title: Who is this guy?
 ---
 
