@@ -46,7 +46,7 @@ collections:
               fields:
                 [
                   { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Description, name: description, widget: markdown },
                 ],
             }
       - file: 'src/pages/about/index.md'
