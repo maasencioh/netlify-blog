@@ -1,63 +1,18 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: maasencioh/gff-frontend
 
-media_folder: static/img
-public_folder: /img
+media_folder: content/assets
+public_folder: ../assets
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'src/pages/blog'
+  - name: blog
+    label: Blog
+    folder: content/blog
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - {
-          label: 'Template Key',
-          name: 'templateKey',
-          widget: 'hidden',
-          default: 'blog-post',
-        }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
-
-  - name: 'pages'
-    label: 'Pages'
-    files:
-      - file: 'src/pages/index.md'
-        label: 'Landing Page'
-        name: 'Index Page'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'index-page',
-            }
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - {
-              label: Mainpitch,
-              name: mainpitch,
-              widget: object,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
-                ],
-            }
-      - file: 'src/pages/about/index.md'
-        label: 'About'
-        name: 'about'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'about-page',
-            }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: date }
+      - { name: description, label: Description }
+      - { name: author, label: Author }
+      - { name: body, label: Body, widget: markdown }
